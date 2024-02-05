@@ -62,7 +62,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
    
    - User should face first with `index.html` when web app started.
 
-   - User input should be taken via `index.html` using http post method
+   - User input should be taken via `index.html` using http post method.
    
    - If user input is not valid, user should be warned using the `index.html` with template formatting.
 
@@ -75,7 +75,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
    - The application stack should take the name of your Key Pair as a parameter from the user;
 
    
-   - The application should run on Amazon Linux 2 EC2 Instance
+   - The application should run on Amazon Linux 2 EC2 Instance.
 
    - EC2 Instance type can be configured as `t2.micro`.
 
@@ -126,11 +126,11 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
 ### At the end of the project, students will be able to;
 
-- improve coding skills using iterables(dict), operators, for-loop, if statements and functions within Python
+- improve coding skills using iterables(dict), operators, for-loop, if statements and functions within Python.
 
-- improve web programming skills using HTTP GET/POST methods, template formatting, importing packages within Python Flask Framework
+- improve web programming skills using HTTP GET/POST methods, template formatting, importing packages within Python Flask Framework.
 
-- improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance
+- improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance.
 
 - configure AWS EC2 Instance and Security Groups.
 
@@ -144,9 +144,9 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
   
 - Step 1: Download or clone project definition from `clarusway-aws-workshop` repo on Github 
 
-- Step 2: Create project folder for local public repo on your pc
+- Step 2: Create project folder for local public repo on your pc.
 
-- Step 3: Write the Roman Numerals Converter Application in Python
+- Step 3: Write the Roman Numerals Converter Application in Python.
 
 - Step 4: Transform your application into web application using Python Flask framework
 
