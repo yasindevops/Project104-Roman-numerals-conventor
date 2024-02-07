@@ -1,7 +1,7 @@
 # Project-001 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation
 
 ## Description
-The Roman Numerals Converter Application aims to convert the given number to the Roman numerals. The application is to be coded in Python and deployed as a web application with Flask on AWS Elastic Compute Cloud (EC2) Instance using AWS Cloudformation Service... 
+The Roman Numerals Converter Application aims to convert the given number to the Roman numerals. The application is to be coded in Python and deployed as a web application with Flask on AWS Elastic Compute Cloud (EC2) Instance using AWS Cloudformation Service. 
 
 ## Problem Statement
 
@@ -36,13 +36,13 @@ There are six instances where subtraction is used:
 
 - User input can be either integer or string, thus the input should be checked for the followings,
 
-   - The input should be a decimal number within the range of 1 to 3999, inclusively.
+   - The input should be a decimal number within the range of 1 to 3999, inclusively,
    
-   - If the input is less then 1 or greater then 3999, user should be warned using the given html template.
+   - If the input is less then 1 or greater then 3999, user should be warned using the given html template,
 
    - If the input is string and can not be converted to decimal number, user should be warned using the given html template.
 
-- Example for user inputs and respective outputs
+- Example for user inputs and respective outputs:
 
 ```
 Input       Output
