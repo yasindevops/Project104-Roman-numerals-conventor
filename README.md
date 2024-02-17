@@ -1,9 +1,9 @@
 # Project-001 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation
 
-## Description
-The Roman Numerals Converter Application aims to convert the given number to the Roman numerals. The application is to be coded in Python and deployed as a web application with Flask on AWS Elastic Compute Cloud (EC2) Instance using AWS Cloudformation Service. 
+## Description :
+The Roman Numerals Converter Application aims to convert the given number to the Roman numerals. The application is to be coded in Python and deployed as a web application with Flask on AWS Elastic Compute Cloud (EC2) Instance using AWS Cloudformation (CFN) Service. 
 
-## Problem Statement
+## Problem Statement :
 
 ![Project_001](Project_001_.png)
 
@@ -72,8 +72,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
    - The application stack should be created with new AWS resources. 
 
-   - The application stack should take the name of your Key Pair as a parameter from the user;
-
+   - The application stack should take the name of your Key Pair as a parameter from the user.
    
    - The application should run on Amazon Linux 2 EC2 Instance.
 
@@ -87,7 +86,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
    - Roman Numerals Converter Application Website URL should be given as output by Cloudformation Service, after the stack created.
 
-## Project Skeleton 
+## Project Skeleton :
 
 ```
 001-roman-numerals-converter (folder)
@@ -100,47 +99,47 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
         |----result.html # Given to the students (HTML template)
 ```
 
-## Expected Outcome
+## Expected Outcome :
 
 ![Project 001 Snapshot](project-001-snapshot.png)
 
 ### At the end of the project, following topics are to be covered;
 
-- Algorithm design
+- Algorithm design.
 
-- Programming with Python 
+- Programming with Python. 
 
-- Web application programming with Python Flask Framework 
+- Web application programming with Python Flask Framework. 
 
-- Bash scripting
+- Bash scripting.
 
-- AWS EC2 Service
+- AWS EC2 Service.
 
-- AWS Security Groups Configuration
+- AWS Security Groups Configuration.
 
-- AWS Cloudformation Service
+- AWS Cloudformation Service.
 
-- AWS Cloudformation Template Design
+- AWS Cloudformation Template Design.
 
-- Git & Github for Version Control System
+- Git & Github for Version Control System.
 
 ### At the end of the project, students will be able to;
 
-- improve coding skills using iterables(dict), operators, for-loop, if statements and functions within Python.
+- Improve coding skills using iterables(dict), operators, for-loop, if statements and functions within Python.
 
-- improve web programming skills using HTTP GET/POST methods, template formatting, importing packages within Python Flask Framework.
+- Improve web programming skills using HTTP GET/POST methods, template formatting, importing packages within Python Flask Framework.
 
-- improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance.
+- Improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance.
 
-- configure AWS EC2 Instance and Security Groups.
+- Configure AWS EC2 Instance and Security Groups.
 
-- configure Cloudformation template to use AWS Resources.
+- Configure Cloudformation template to use AWS Resources.
 
-- use AWS Cloudformation Service to launch stacks.
+- Use AWS Cloudformation Service to launch stacks.
 
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+- Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-## Steps to Solution
+## Steps to Solution :
   
 - Step 1: Download or clone project definition from `clarusway-aws-workshop` repo on Github 
 
@@ -156,7 +155,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
 - Step 7: Deploy your application on AWS Cloud using Cloudformation template to showcase your app within your team.
 
-## Notes
+## Notes :
 
 - Use the template formatting library `jinja` within Flask framework to leverage from given templates.
 
@@ -164,7 +163,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
 - Customize the application by hard-coding your name for the `developer_name` variable within html templates.
 
-## Resources
+## Resources :
 
 - [Python Flask Framework](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
 
